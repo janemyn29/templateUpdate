@@ -2267,6 +2267,193 @@ h2.active {
 }
 
 /*=========================================================
+	09 -> cart PAGE
+===========================================================*/
+.border-bottom{
+  border-bottom: 2px solid #D10024 ;
+}
+.text-muted{
+  font-size: 13px;
+  color: #D10024;
+}
+.quantity a{
+  font-size: 15px;
+  text-align: center;
+}
+.price{
+  font-size: 15px;
+  text-align: center;
+}
+.fa-close{
+  
+}
+.viewCart{
+  background: #ddd;
+  min-height: 100vh;
+  vertical-align: middle;
+  display: flex;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.cart .title{
+  margin-bottom: 5vh;
+}
+.card{
+  margin: auto;
+  max-width: 1100px;
+  width: 100%;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 1rem;
+  border: transparent;
+}
+@media(max-width:767px){
+  .card{
+      margin: 3vh auto;
+  }
+}
+.cart{
+  background-color: #fff;
+  padding: 4vh 5vh;
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+@media(max-width:767px){
+  .cart{
+      padding: 4vh;
+      border-bottom-left-radius: unset;
+      border-top-right-radius: 1rem;
+  }
+}
+.summary{
+  background-color: #ddd;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding: 4vh;
+  color: rgb(65, 65, 65);
+}
+@media(max-width:767px){
+  .summary{
+  border-top-right-radius: unset;
+  border-bottom-left-radius: 1rem;
+  }
+}
+.summary .colum{
+  padding: 0;
+}
+/* .summary .col-10
+{
+  padding: 0;
+} */
+.rowCart{
+  margin: 0;
+}
+.cart .title b{
+  font-size: 1.5rem;
+}
+.main{
+  margin: 0;
+  padding: 2vh 0;
+  width: 100%;
+}
+.cart .title .row{
+  margin: 0;
+}
+.colum{
+  padding: 0 1vh;
+}
+.colum a{
+  padding: 0 1vh;
+}
+.close{
+  margin-left: auto;
+  font-size: 0.9rem;
+}
+.colum img{
+  width: 10rem;
+}
+.back-to-shop{
+  margin-top: 4.5rem;
+}
+.summary h5{
+  margin-top: 4vh;
+}
+.summary hr{
+  margin-top: 1.25rem;
+}
+.summary form{
+  padding: 2vh 0;
+}
+.summary select{
+  border: 1px solid rgba(0, 0, 0, 0.137);
+  padding: 1.5vh 1vh;
+  margin-bottom: 4vh;
+  outline: none;
+  width: 100%;
+  background-color: rgb(247, 247, 247);
+}
+.viewCart input{
+  border: 1px solid rgba(0, 0, 0, 0.137);
+  padding: 1vh;
+  margin-bottom: 4vh;
+  outline: none;
+  width: 100%;
+  background-color: rgb(247, 247, 247);
+}
+.viewCart input:focus::-webkit-input-placeholder
+{
+    color:transparent;
+}
+.total{
+  font-size: 15px;
+  color:#D10024;
+}
+.viewCart .btn{
+  background-color: #D10024;
+  border-color: #D10024;
+  color: white;
+  width: 100%;
+  font-size: 0.9rem;
+  margin-top: 4vh;
+  padding: 1vh;
+  border-radius: 0;
+}
+.viewCart .btn:focus{
+  box-shadow: none;
+  outline: none;
+  box-shadow: none;
+  color: white;
+  -webkit-box-shadow: none;
+  -webkit-user-select: none;
+  transition: none; 
+}
+
+
+.viewCart .btn:hover{
+  color: black;
+}
+.viewCart a{
+  color: black; 
+}
+.viewCart a:hover{
+  color: black;
+  text-decoration: none;
+}
+.viewCart .back-to-shop:hover{
+  color:#D10024;
+}
+#code{
+  background-image: linear-gradient(to left, rgba(255, 255, 255, 0.253) , rgba(255, 255, 255, 0.185)), url("https://img.icons8.com/small/16/000000/long-arrow-right.png");
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: center;
+}
+/*=========================================================
+	09 -> /cart PAGE
+===========================================================*/
+
+
+/*=========================================================
 	09 -> CHECKOUT PAGE
 ===========================================================*/
 
